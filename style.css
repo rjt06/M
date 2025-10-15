@@ -1,5 +1,5 @@
 html {
-  font-size: 10px;
+  font-size: 8px;
 }
 
 body {
@@ -174,17 +174,26 @@ input {
   color: rgb(255, 255, 255);
 }
 
+
 @media(max-width: 580px) {
   html {
-    font-size: 10px;
+    font-size: 8px;
   }
-
-  h1 {
+  .heading {
     font-size: 2rem;
   }
-
-  .refresh-icon {
-    top: 1.6rem;
-    width: 2rem;
+  .popup {
+    width: 30rem;
+    height: 38rem;
+    transform: translate(-50%, -80%);
+    padding-top: 6rem;
+  }
+  label {
+    margin-bottom: -1em;
+    margin-top: 1rem;
+  }
+  .submit-btn {
+    margin-top: 3rem;
+    padding: 2rem 0 4rem 0;
   }
 }
