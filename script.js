@@ -1,4 +1,4 @@
-const webList = ["Bankist","PigGame", "MyPortfolio", "Calender", "RPSGame", "ToDoList", "TicTacToe", "Youtube", "DrumKit", "Calculator", "Clock", "DigitalClock", "Temperature"]
+const webList = ["AdityaPrinting","Bankist","PigGame", "MyPortfolio", "Calender", "RPSGame", "ToDoList", "TicTacToe", "Youtube", "DrumKit", "Calculator", "Clock", "DigitalClock", "Temperature"]
 
 const main = document.querySelector(".main")
 const list = document.querySelector(".list")
@@ -56,6 +56,7 @@ submitBtn.addEventListener("click", () => {
     developer.classList.remove("hidden");
   }
 })
+
 
 
 
